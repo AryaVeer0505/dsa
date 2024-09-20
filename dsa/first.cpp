@@ -635,10 +635,153 @@ int main(){
 //	cout<<endl;
 //}
 
-//5==pyramid pattern 
+//5==right side triangle 
 
 //a
 
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<i+1;j++){
+//		cout<<"*";
+//	}
+//	cout<<endl;
+//}
+
+//b
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<i+1;j++){
+//		cout<<j;
+//	}
+//	cout<<endl;
+//}
+
+//c
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	char ch='A';
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<i+1;j++){
+//		cout<<ch;
+//		ch+=1;
+//	}
+//	cout<<endl;
+//}
+
+//d
+
+//int n=4;
+//int num=0;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<i+1;j++){
+//		cout<<num++;
+//	}
+//	cout<<endl;
+//}
+
+//e
+
+//int n=4;
+//char ch='A';
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<i+1;j++){
+//		cout<<ch++;
+//	}
+//	cout<<endl;
+//}
+
+//f
+
+//int n=4;
+//int num=0;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<i+1;j++){
+//		cout<<num;
+//	}
+//	num++;
+//	cout<<endl;
+//}
+
+//g
+
+//int n=4;
+//char ch='A';
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<i+1;j++){
+//		cout<<ch;
+//	}
+//	ch++;
+//	cout<<endl;
+//}
+
+//h
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=i+1;j>0;j--){
+//		cout<<j;
+//	}
+//	cout<<endl;
+//}
+
+//6=== Pyramid pattern 
+
+//a
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=1;j<=i+1;j++){
+//		cout<<j;
+//	}
+//	for(int j=1;j<=i;j++){
+//		cout<<j;
+//	}
+//	cout<<endl;
+//}
+
+//b
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<(n-i-1);j++){
+//		cout<<" ";
+//	}
+//	for(int j=1;j<=i+1;j++){
+//		cout<<j;
+//	}
+//	for(int j=i;j>=1;j--){
+//		cout<<j;
+//	}
+//	cout<<endl;
+//}
 
 
 return 0;
