@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-	  
-//Day===1 
-//(flowcharts,psedocodes,basic questions) 
 
-//max of two numbers 
+//Day===1
+//(flowcharts,psedocodes,basic questions)
+
+//max of two numbers
 
 //int a,b;
 //cout<<"Enter value of a:";
@@ -19,7 +19,7 @@ int main(){
 //	cout<<"b is greater";
 //}
 
-//sum of n numbers 
+//sum of n numbers
 
 //int n;
 //int sum=0;
@@ -40,7 +40,7 @@ int main(){
 //        cout<<"can not vote";
 //    }
 
-//Calculate Simple interest 
+//Calculate Simple interest
 
 //     int principle=2000;
 //     int rate=20;
@@ -48,7 +48,7 @@ int main(){
 //     int SI=principle*rate*time;
 //     cout<<SI;
 
-//factorial 
+//factorial
 
 //
 //int n=5;
@@ -61,13 +61,13 @@ int main(){
 
 
 //Day===2
-//(variables,datatypes,operators,questions) 
+//(variables,datatypes,operators,questions)
 
-//size of operator 
+//size of operator
 //int age=20;
 //cout<<sizeof(age);
 
-//datatypes 
+//datatypes
 
 //(primitive datatypes)
 //int===4bytes(1byte==8bits)
@@ -105,7 +105,7 @@ int main(){
 //    double price=100.90;
 //    int newPrice=int(price);
 //    cout<<newPrice;
-////    100 will be printed values after decimal will be removed 
+////    100 will be printed values after decimal will be removed
 
 //input in c++
 
@@ -183,7 +183,7 @@ int main(){
 //  cout<<b; (new value of a)
 //  cout<<a;
 
-//sum of two numbers 
+//sum of two numbers
 
 //  int a,b,c;
 //  cout<<"Enter value of a:";
@@ -197,7 +197,7 @@ int main(){
 //Day==3
 //(conditional statements,loops,questions)
 
-//conditional statements 
+//conditional statements
 
 //if
 
@@ -230,7 +230,7 @@ int main(){
 //  	cout<<"odd";
 //  }
 
-//if else-if 
+//if else-if
 
 //   int n=55;
 //   if(n>=90){
@@ -246,7 +246,7 @@ int main(){
 //   	cout<<"fail";
 //   }
 
-//find character is uppercase or lowercase 
+//find character is uppercase or lowercase
 
 //  char ch;
 //  cout<<"Enter character:";
@@ -258,8 +258,8 @@ int main(){
 //  	cout<<"uppercase";
 //  }
 
-//using ascii values 
-//in memory characters are stored in the form of int 
+//using ascii values
+//in memory characters are stored in the form of int
 
 
 // char ch;
@@ -272,12 +272,12 @@ int main(){
 // 	cout<<"lowercase";
 // }
 
-//ternary statement(short hand if else method) 
+//ternary statement(short hand if else method)
 //condition?st1:st2
 
 //   int a=-5;
 //   (a>0)?cout<<"positive":cout<<"negative";
-   
+
 //loops
 
 //while loop
@@ -296,7 +296,7 @@ int main(){
 //	cout<<i<<"\n";
 //}
 
-//for loop 
+//for loop
 
 //int n=5;
 //int i=1;
@@ -342,15 +342,304 @@ int main(){
 //}
 //cout<<"sum of all odd numbers:"<<sum;
 
-//int n;
-//cout<<"Enter value of n:";
-//cin>>n;
-//int sum=0;
-//for(int i=1;i<=n;i++){
-//	cout<<i<<"\n";
-//	sum=sum+i;
+//day===4
+//(patterns problems)
+
+//1 == square patterns
+
+//a
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<0;j++){
+//		cout<<"*";
+//	}
+//	cout<<"\n";
 //}
-//cout<<"sum of all odd numbers:"<<sum;
+
+//b
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<0;j++){
+//		cout<<j;
+//	}
+//	cout<<"\n";
+//}
+
+//c
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	char ch='A';
+//	for(int j=0;j<0;j++){
+//		cout<<ch;
+//		ch+=1;
+//	}
+//	cout<<"\n";
+//}
+
+//d
+
+//int n=4;
+//int num=0;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<0;j++){
+//		cout<<num;
+//		num+=1;
+//	}
+//	cout<<"\n";
+//}
+
+//e
+
+//int n=4;
+//char ch='A';
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<0;j++){
+//		cout<<ch;
+//		ch+=1;
+//	}
+//	cout<<"\n";
+//}
+
+//2=== Triangle patterns
+
+//a
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<i+1;j++){
+//		cout<<"*";
+//	}
+//	cout<<"\n";
+//}
+
+//b
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=1;j<=i+1;j++){
+//		cout<<j;
+//	}
+//	cout<<"\n";
+//}
+
+//c
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	char ch='A';
+//	for(int j=0;j<i+1;j++){
+//		cout<<ch;
+//		ch+=1;
+//	}
+//	cout<<"\n";
+//}
+
+//d
+
+//int n=4;
+//int num=1;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<i+1;j++){
+//		cout<<num;
+//		num+=1;
+//	}
+//	cout<<"\n";
+//}
+
+//f
+
+//int n=4;
+//char ch='A';
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<i+1;j++){
+//		cout<<ch;
+//		ch+=1;
+//	}
+//	cout<<"\n";
+//}
+
+//g
+
+//int n=4;
+//int num=1;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<i+1;j++){
+//		cout<<num;
+//	}
+//	num+=1;
+//	cout<<"\n";
+//}
+
+//h
+
+//int n=4;
+//char ch='A';
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<i+1;j++){
+//		cout<<ch;
+//	}
+//	ch+=1;
+//	cout<<"\n";
+//}
+
+//3===Reverse triangle pattern 
+
+//a
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=i+1;j>0;j--){
+//		cout<<j;
+//	}
+//	cout<<endl;
+//}
+
+//b
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	char ch='A';
+//	ch+=i;
+//	for(int j=i+1;j>0;j--){
+//		cout<<ch--;
+//
+//	}
+//	cout<<endl;
+//}
+
+//c 
+
+//int n=4;
+//int num=0;
+//for(int i=0;i<n;i++){
+//	num+=i;
+//	for(int j=i+1;j>0;j--){
+//		cout<<num++;
+//	}
+//	cout<<endl;
+//}
+
+//4==inverted triangle 
+
+//a
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<i;j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<n-i;j++){
+//		cout<<"*";
+//	}
+//	cout<<endl;
+//}
+
+//b
+
+//int n=4;
+//for(int i =0;i<n;i++){
+//	for(int j=0;j<i;j++){
+//		cout<<" ";
+//	}
+//	for(int j=1;j<=n-i;j++){
+//		cout<<j;
+//	}
+//	cout<<endl;
+//}
+
+//c
+
+//int n=4;
+//for(int i =0;i<n;i++){
+//	char ch='A';
+//	for(int j=0;j<i;j++){
+//		cout<<" ";
+//	}
+//	for(int j=1;j<=n-i;j++){
+//		cout<<ch++;
+//	}
+//	cout<<endl;
+//}
+
+//d
+
+//int n=4;
+//int num=0;
+//for(int i =0;i<n;i++){
+//	for(int j=0;j<i;j++){
+//		cout<<" ";
+//	}
+//	for(int j=1;j<=n-i;j++){
+//		cout<<num++;
+//	}
+//	cout<<endl;
+//}
+
+//e
+
+//int n=4;
+//char ch='A';
+//for(int i =0;i<n;i++){
+//	for(int j=0;j<i;j++){
+//		cout<<" ";
+//	}
+//	for(int j=1;j<=n-i;j++){
+//		cout<<ch++;
+//	}
+//	cout<<endl;
+//}
+
+//f
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<i;j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<n-i;j++){
+//		cout<<(i+1);
+//	}
+//	cout<<endl;
+//}
+
+//g
+
+//int n=4;
+//char ch='A';
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<i;j++){
+//		cout<<" ";
+//	}
+//	for(int j=0;j<n-i;j++){
+//		cout<<ch;
+//	}
+//	ch+=1;
+//	cout<<endl;
+//}
+
+//5==reverse inverted triangle 
+
+//a
+
+//int n=4;
+//for(int i=0;i<n;i++){
+//	for(int j=0;j<i;j++){
+//		cout<<" ";
+//	}
+//	for(int j=n-i;j>0;j--){
+//		cout<<j;
+//	}
+//	cout<<endl;
+//}
+
+//5==pyramid pattern 
+
+//a
+
+
 
 return 0;
 }
