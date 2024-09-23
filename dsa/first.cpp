@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+//int main(){
 
 //Day===1
 //(flowcharts,psedocodes,basic questions)
@@ -840,5 +840,82 @@ int main(){
 //day ===5
 //(functions,basic questions)
 
-return 0;
-}
+//function syntax
+
+//int printHello(){
+//	cout<<"hello\n";
+//	return 3;
+//}
+//int main(){
+//   cout<<printHello();
+//}
+
+//parameters
+
+//function to print sum of two numbers 
+
+//int sum(int a,int b){
+//	return a+b;
+//}
+//int main(){
+//   cout<<"sum of two numbers:"<<sum(3,3);
+//}
+
+//or
+
+//int sum(int a,int b){
+//	int sum=a+b;
+//	return sum;
+//}
+//int main(){
+//   cout<<"sum of two numbers:"<<sum(3,3);
+//}
+
+//minimum of two number
+
+//int greater(int a,int b){
+//   if(a>b){
+//   	return a;
+//   }
+//   else{
+//   	return b;
+//   }
+//}
+//int main(){
+//	cout<<"greater number is:"<< greater(3,7);
+//}
+
+//function to calculate sum of 1 to n 
+
+//int sum(int num){
+//   int sum=0;
+//   for(int i=0;i<=num;i++){
+//   	sum+=i;
+//   }
+//   return sum;
+//}
+//int main(){
+//	cout<<"sum of n numbers:"<< sum(10);
+//}
+
+//calculate n factorial 
+
+//int factorial(int num){
+//   int fact=1;
+//   for(int i=1;i<=num;i++){
+//   	   fact*=i;
+//   }
+//   return fact;
+//}
+//int main(){
+//	cout<<"factorial of n numbers:"<< factorial(5);
+//}
+
+//functions in memory 
+
+//two types of memory===
+//1===stack(static)
+//functions are stored in stack
+//for example when we call 
+
+//2===heap(dynamic)
