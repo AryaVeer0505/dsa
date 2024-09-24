@@ -916,6 +916,105 @@ using namespace std;
 //two types of memory===
 //1===stack(static)
 //functions are stored in stack
-//for example when we call 
+//in stack memory every function is stored in stack frames
+
+//for example:-
+
+//in stack main function is stored first
+//Then sum function is called and gets stored above main function
+//current function remains on top of stack
+//return statement should always be last
 
 //2===heap(dynamic)
+
+//pass by value 
+//(copy of arguments is passed to functions)
+
+//int sum(int a,int b){
+//	return a+b;
+//}
+//int main(){
+//	int x=3,y=6;
+//	cout<<sum(x,y);
+//}
+
+//in this exxample copy of x and y values get stored in sum functions a and b
+
+//if we make any change in sum functions variables it will not be reflected in main function
+
+//int sum(int a,int b){
+//	a+=5;
+//	b+=3;
+//	return a+b;
+//}
+//int main(){
+//	int a=3,b=6;
+//	cout<<sum(a,b)<<endl;
+//	cout<<a<<endl;
+//	cout<<b;
+//}
+
+//int changeX(int x){
+//	x*=2;
+//	cout<<"x="<<x<<endl;
+//}
+//int main(){
+//	int x=5;
+//	changeX(x);
+//	cout<<"x="<<x;
+//}
+
+//calculate sum of digits of a numbers
+
+//int main(){
+//int digitsum=0;
+//int num;
+//int lastdigit;
+//cout<<"enter any number:";
+//cin>>num;
+//while(num>0){
+//	lastdigit=num%10;
+//	num=num/10;
+//	digitsum+=lastdigit;
+//}
+//cout<<digitsum;
+//return 0;
+//}
+
+//using function
+
+//int digitsum(int num){
+//	int ds=0;
+//	int last;
+//	while(num>0){
+//		last=num%10;
+//		num=num/10;
+//		ds+=last;
+//	}
+//	cout<<ds;
+//}
+//int main(){
+//	int num =1234;
+//	digitsum(num);
+//}
+
+//calculate ncr binomial coefficient for n and r
+
+//int factorial(int n){
+//	int fact=1;
+//	for(int i=1;i<=n;i++){
+//		fact*=i;
+//	}
+//	return fact;
+//}
+//int ncr(int n,int r){
+//	int fact_n=factorial(n);
+//	int fact_r=factorial(r);
+//	int fact_nmr=factorial(n-r);
+//	return fact_n/(fact_r*fact_nmr);
+//}
+//int main(){
+//	int n=8,r=2;
+//	cout<<ncr(n,r);
+//
+//}
