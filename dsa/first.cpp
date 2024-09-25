@@ -1018,19 +1018,153 @@ using namespace std;
 //	cout<<ncr(n,r);
 //
 //}
-int checkPrime(int num){
-    for(int i=2;i<num-1;i++){
-        if(num%i==0){
-            return 0;
-        }
-    }
-}
-int main(){
-    int num=6;
-    if(checkPrime(num)){
-        cout<<"prime";
-    }else{
-        cout<<"not a  prime";
-    }
-    return 0;
-}
+
+//check whether number is prime or not 
+
+//int checkPrime(int num){
+//	for(int i=2;i<num-1;i++){
+//		if(num%i==0){
+//			return 0;
+//		}
+//	}
+//	return 1;
+//}
+//int main(){
+//	int num;
+//	cout<<"Enter any number:";
+//	cin>>num;
+//	if(checkPrime(num)){
+//		cout<<"Number is Prime";
+//	}
+//	else{
+//		cout<<"Not a prime";
+//	}
+//	return 0;
+//}
+
+//print prime numbers from 2 to n 
+
+//int prime(int n){
+//	for(int num=2;num<n;num++){
+//		int count=0;
+//		for(int i=2;i<num/2;i++){
+//			if(num%i==0){
+//				count++;
+//				break;
+//			}
+//		}
+//		if(count==0 && num!=1){
+//			cout<<num<<endl;
+//		}
+//	}
+//}
+//int main(){
+//
+//int n=50;
+//cout<<prime(n);
+//}
+
+//print fibonacci series from  1 to n 
+
+//int fibo(int num){
+//	int n1=0,n2=1;
+//	for(int i=0;i<=num;i++){
+//     int n3=n1+n2;
+//     n2=n1;
+//     n1=n3;
+//     cout<<n3<<endl;
+//}
+//}
+//int main(){
+//	int num=10;
+//	cout<<fibo(num);
+//}
+
+//day==6
+//(Binary number system,conversion of binary number to decimal and vice versa,basic system)
+
+//binary=0 and 1 
+//decimal=1234 
+
+//in binary number===base is 2 
+
+//(42)base10=(101010)base2
+
+//2 to 10 
+
+//2==10
+//3==11
+//4==100
+//5==101
+//6==110
+//7==111
+//8==1000
+//9==1001
+//10==1010
+
+//code for decimal to binary number 
+
+//int dectobi(int num){
+//	int ans=0;
+//	int pow=1;
+//	while(num>0){
+//		int rem=num%2;
+//		num=num/2;
+//		ans+=(rem*pow);
+//		pow=pow*10;
+//	}
+//	return ans;
+//}
+//int main(){
+//	int num=6;
+//	cout<<dectobi(num);
+//}
+
+//code to con=vert binary number to decimal 
+
+//int bitodec(int num){
+//	int ans=0;
+//	int pow=1;
+//	while(num>0){
+//		int rem=num%10;
+//		ans+=rem*pow;
+//		num=num/10;
+//		pow=pow*2;
+//	}
+//	return ans;
+//}
+//int main(){
+//	int num=1010;
+//	cout<<bitodec(num);
+//}
+	
+//twos complement 
+
+//first convert the number into binary form
+//now find ones complement(reverse binary number 1==0,,0==1)
+
+//MSB==most significant bit(0,1)
+//example==
+//10==1010
+//11010==1 is used in place of minus sign(-10)
+//01010==0 is used in place of plus sign(+10)
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
